@@ -8,10 +8,6 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=m-kishanth&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
-
-<p align="center">
   🚀 B.Tech AI & DS Student | Passionate about Generative AI, RAG Systems & Computer Vision.<br>
   💡 Building intelligent software, LLM orchestration workflows, and vision-based automation.<br>
   🎯 Focused on developing efficient, user-centered backend and AI-driven applications.
@@ -73,21 +69,15 @@
 
 ---
 
-### 🏆 GitHub Trophies
+### ⚡ GitHub Overview
 
 <p align="center">
-  <a href="https://github.com/m-kishanth">
-    <img src="https://github-profile-trophy.vercel.app/?username=m-kishanth&theme=radical&no-frame=true" alt="GitHub Trophies" />
+  <a href="https://github.com/m-kishanth?tab=repositories">
+    <img src="https://img.shields.io/badge/View_Repositories-m--kishanth-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
   </a>
-</p>
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=m-kishanth&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-kishanth&layout=compact&theme=radical&hide_border=true" alt="Top Languages" width="48%" />
+  <a href="https://github.com/m-kishanth?tab=stars">
+    <img src="https://img.shields.io/badge/Starred_Repos-GitHub-FFD700?style=for-the-badge&logo=github&logoColor=black" alt="Stars" />
+  </a>
 </p>
 
 ---
