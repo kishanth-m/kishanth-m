@@ -4,7 +4,7 @@
 <p align="center">
   <a href="mailto:m.kishanth001@gmail.com"><img src="https://img.shields.io/badge/Email-m.kishanth001%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://linkedin.com/in/kishanth-m" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Kishanth_M-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/m-kishanth"><img src="https://img.shields.io/badge/GitHub-m--kishanth-181717?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/kishanth-m"><img src="https://img.shields.io/badge/GitHub-m--kishanth-181717?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 <p align="center">
@@ -72,10 +72,10 @@
 ### ⚡ GitHub Overview
 
 <p align="center">
-  <a href="https://github.com/m-kishanth?tab=repositories">
+  <a href="https://github.com/kishanth-m?tab=repositories">
     <img src="https://img.shields.io/badge/View_Repositories-m--kishanth-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
   </a>
-  <a href="https://github.com/m-kishanth?tab=stars">
+  <a href="https://github.com/kishanth-m?tab=stars">
     <img src="https://img.shields.io/badge/Starred_Repos-GitHub-FFD700?style=for-the-badge&logo=github&logoColor=black" alt="Stars" />
   </a>
 </p>
