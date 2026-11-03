@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =====================================================================
+# PRIVACY & SECURITY: Raw Original Photograph
+# =====================================================================
+# The original high-resolution personal portrait is strictly ignored
+# so it is NEVER committed or exposed on public GitHub.
+# Only the generated vector SVG assets in .github/assets/ are published.
+assets/portrait/*.jpg
+assets/portrait/*.jpeg
+assets/portrait/*.png
+assets/portrait/*.webp
+assets/portrait/mask_test.png
+assets/portrait/segmented_preview.jpg
+
+# Environment, credentials & tokens
+.env
+.env.*
+*.key
+*.pem
+*.token
+
+# Editor & OS artifacts
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 250" width="100%" height="auto">
+  <defs>
+    <linearGradient id="focusBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF66" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#00f5d4" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#00FF66" stop-opacity="0.7" />
+    </linearGradient>
+    <style>
+      @keyframes pulseFocus {
+        0%, 100% { opacity: 0.4; r: 4; }
+        50% { opacity: 1; r: 5.5; filter: drop-shadow(0 0 5px #00FF66); }
+      }
+      .p-focus { animation: pulseFocus 2s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <rect width="980" height="250" rx="10" fill="#060b08" />
+  <rect x="1.5" y="1.5" width="977" height="247" rx="9" fill="none" stroke="url(#focusBorder)" stroke-width="1.2" />
+
+  <!-- Header -->
+  <g transform="translate(24, 28)">
+    <text x="0" y="0" font-family="JetBrains Mono, Consolas, monospace" font-size="13" font-weight="900" fill="#00FF66" letter-spacing="2">🗺️ CURRENT FOCUS // AI ENGINEERING ROADMAP</text>
+    <text x="932" y="0" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#7a9988" text-anchor="end">CONTINUOUS LEARNING &amp; APPLIED RESEARCH</text>
+    <line x1="0" y1="12" x2="932" y2="12" stroke="#00FF66" stroke-opacity="0.25" stroke-width="1" />
+  </g>
+
+  <!-- 5 Roadmap Nodes -->
+  <g transform="translate(24, 60)">
+    
+    <!-- Step 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="175" height="150" rx="6" fill="#0a1610" stroke="#00FF66" stroke-opacity="0.4" />
+      <circle cx="18" cy="22" r="4" fill="#00FF66" class="p-focus" />
+      <text x="30" y="25" font-family="JetBrains Mono, Consolas, monospace" font-size="8.5" fill="#55FF99" font-weight="bold">PHASE 01 // CORE</text>
+      <text x="14" y="52" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="bold" fill="#00f5d4">Generative AI &amp; LLMs</text>
+      <text x="14" y="74" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">Deep dive into</text>
+      <text x="14" y="88" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">foundation models,</text>
+      <text x="14" y="102" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">prompting &amp; tokens.</text>
+      <text x="14" y="132" font-family="JetBrains Mono, Consolas, monospace" font-size="8" fill="#00FF66">● ACTIVE BASELINE</text>
+    </g>
+
+    <!-- Step 2 -->
+    <g transform="translate(188, 0)">
+      <rect width="175" height="150" rx="6" fill="#0a1610" stroke="#00FF66" stroke-opacity="0.4" />
+      <circle cx="18" cy="22" r="4" fill="#00FF66" class="p-focus" />
+      <text x="30" y="25" font-family="JetBrains Mono, Consolas, monospace" font-size="8.5" fill="#55FF99" font-weight="bold">PHASE 02 // AGENTS</text>
+      <text x="14" y="52" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="bold" fill="#00f5d4">Multi-Agent Systems</text>
+      <text x="14" y="74" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">LangGraph stateful</text>
+      <text x="14" y="88" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">graphs, orchestrator</text>
+      <text x="14" y="102" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">&amp; debate topologies.</text>
+      <text x="14" y="132" font-family="JetBrains Mono, Consolas, monospace" font-size="8" fill="#00FF66">● IN PROGRESS</text>
+    </g>
+
+    <!-- Step 3 -->
+    <g transform="translate(376, 0)">
+      <rect width="175" height="150" rx="6" fill="#0a1610" stroke="#00FF66" stroke-opacity="0.4" />
+      <circle cx="18" cy="22" r="4" fill="#00FF66" class="p-focus" />
+      <text x="30" y="25" font-family="JetBrains Mono, Consolas, monospace" font-size="8.5" fill="#55FF99" font-weight="bold">PHASE 03 // RETRIEVAL</text>
+      <text x="14" y="52" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="bold" fill="#00f5d4">Advanced RAG</text>
+      <text x="14" y="74" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">Hybrid search,</text>
+      <text x="14" y="88" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">vector reranking,</text>
+      <text x="14" y="102" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">&amp; PostgreSQL recall.</text>
+      <text x="14" y="132" font-family="JetBrains Mono, Consolas, monospace" font-size="8" fill="#00FF66">● ACTIVE PIPELINE</text>
+    </g>
+
+    <!-- Step 4 -->
+    <g transform="translate(564, 0)">
+      <rect width="175" height="150" rx="6" fill="#0a1610" stroke="#00FF66" stroke-opacity="0.4" />
+      <circle cx="18" cy="22" r="4" fill="#00FF66" class="p-focus" />
+      <text x="30" y="25" font-family="JetBrains Mono, Consolas, monospace" font-size="8.5" fill="#55FF99" font-weight="bold">PHASE 04 // LOCAL AI</text>
+      <text x="14" y="52" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="bold" fill="#00f5d4">Edge &amp; Local LLMs</text>
+      <text x="14" y="74" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">Privacy-first inference</text>
+      <text x="14" y="88" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">with Ollama, Groq</text>
+      <text x="14" y="102" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">&amp; quantized models.</text>
+      <text x="14" y="132" font-family="JetBrains Mono, Consolas, monospace" font-size="8" fill="#00FF66">● DEPLOYING</text>
+    </g>
+
+    <!-- Step 5 -->
+    <g transform="translate(752, 0)">
+      <rect width="175" height="150" rx="6" fill="#0a1610" stroke="#00FF66" stroke-opacity="0.4" />
+      <circle cx="18" cy="22" r="4" fill="#00FF66" class="p-focus" />
+      <text x="30" y="25" font-family="JetBrains Mono, Consolas, monospace" font-size="8.5" fill="#55FF99" font-weight="bold">PHASE 05 // VISION</text>
+      <text x="14" y="52" font-family="JetBrains Mono, Consolas, monospace" font-size="12" font-weight="bold" fill="#00f5d4">Computer Vision</text>
+      <text x="14" y="74" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">Object detection,</text>
+      <text x="14" y="88" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">pose estimation,</text>
+      <text x="14" y="102" font-family="JetBrains Mono, Consolas, monospace" font-size="9" fill="#a7f3d0">&amp; spatial analytics.</text>
+      <text x="14" y="132" font-family="JetBrains Mono, Consolas, monospace" font-size="8" fill="#00FF66">● EXPANDING</text>
+    </g>
+
+  </g>
+</svg>

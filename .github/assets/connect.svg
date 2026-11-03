@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 140" width="100%" height="auto">
+  <defs>
+    <linearGradient id="connBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF66" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#00f5d4" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00FF66" stop-opacity="0.8" />
+    </linearGradient>
+    <style>
+      .c-btn:hover { filter: brightness(1.25); }
+    </style>
+  </defs>
+
+  <rect width="980" height="140" rx="10" fill="#060b08" />
+  <rect x="1.5" y="1.5" width="977" height="137" rx="9" fill="none" stroke="url(#connBorder)" stroke-width="1.2" />
+
+  <g transform="translate(30, 35)">
+    <text x="0" y="0" font-family="JetBrains Mono, Consolas, monospace" font-size="14" font-weight="900" fill="#00FF66" letter-spacing="2">🌐 CONNECT WITH ME // NEURAL HANDSHAKE</text>
+    <text x="0" y="24" font-family="JetBrains Mono, Consolas, monospace" font-size="10.5" fill="#a7f3d0">Open to collaborations, AI engineering discussions, and intelligent system research.</text>
+  </g>
+
+  <!-- Buttons on right side -->
+  <g transform="translate(560, 42)">
+    <!-- GitHub Button -->
+    <a href="https://github.com/kishanth-m" target="_blank" class="c-btn">
+      <rect x="0" y="0" width="185" height="50" rx="6" fill="#0b1e14" stroke="#00FF66" stroke-width="1.5" />
+      <text x="24" y="31" font-family="JetBrains Mono, Consolas, monospace" font-size="13" font-weight="bold" fill="#00FF66">⚡ GITHUB PROFILE</text>
+    </a>
+
+    <!-- LinkedIn Button -->
+    <a href="https://www.linkedin.com/in/kishanth-m-aa055b2a3/" target="_blank" class="c-btn">
+      <rect x="205" y="0" width="185" height="50" rx="6" fill="#071a22" stroke="#00f5d4" stroke-width="1.5" />
+      <text x="229" y="31" font-family="JetBrains Mono, Consolas, monospace" font-size="13" font-weight="bold" fill="#00f5d4">💼 LINKEDIN</text>
+    </a>
+  </g>
+</svg>
