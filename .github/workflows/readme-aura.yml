@@ -1,51 +1,24 @@
-name: Generate Profile Aura & Matrix Assets
+name: Generate README
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - 'readme.source.md'
-      - 'scripts/**'
-      - 'assets/portrait/**'
+    branches: [main]
+    paths: ['readme.source.md']
   schedule:
-    # Refresh stats & telemetry daily at 00:00 UTC
-    - cron: '0 0 * * *'
+    # Daily refresh to keep dynamic SVG state fresh
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  render-and-sync:
+  generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+
+      - name: Generate README
+        uses: collectioneur/readme-aura@main
         with:
-          fetch-depth: 0
-
-      - name: Setup Python Environment
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install Graphic Dependencies
-        run: |
-          pip install pillow numpy
-
-      - name: Regenerate Matrix ASCII Portrait & System SVGs
-        run: |
-          python scripts/generate_matrix_portrait_svg.py
-          python scripts/generate_all_profile_svgs.py
-
-      - name: Sync Source to README.md
-        run: |
-          cp readme.source.md README.md
-
-      - name: Commit and push updated assets
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "build(aura): regenerate matrix ascii assets & sync profile [skip ci]"
-          file_pattern: "README.md .github/assets/*.svg"
-
+          github_token: ${{ secrets.GITHUB_TOKEN }}
