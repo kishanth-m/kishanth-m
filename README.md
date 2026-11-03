@@ -12,9 +12,9 @@
 
 <!-- Status Tagline -->
 <p align="center">
-  <a href="mailto:m.kishanth001@gmail.com"><img src="https://img.shields.io/badge/Email-m.kishanth001%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://linkedin.com/in/kishanth-m" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Kishanth_M-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/kishanth-m"><img src="https://img.shields.io/badge/GitHub-m--kishanth-181717?style=flat&logo=github&logoColor=white" alt="GitHub" /></a>
+  <code>⚡ SYSTEM STATUS: OPERATIONAL</code> • 
+  <code>🧠 NEURAL ORCHESTRATION: ACTIVE</code> • 
+  <code>📍 LOCATION: CHENNAI, INDIA</code>
 </p>
 
 <p align="center">
@@ -179,21 +179,96 @@
   </tbody>
 </table>
 
----
-
-### ⚡ GitHub Overview
-
-<p align="center">
-  <a href="https://github.com/kishanth-m?tab=repositories">
-    <img src="https://img.shields.io/badge/View_Repositories-m--kishanth-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
-  </a>
-  <a href="https://github.com/kishanth-m?tab=stars">
-    <img src="https://img.shields.io/badge/Starred_Repos-GitHub-FFD700?style=for-the-badge&logo=github&logoColor=black" alt="Stars" />
-  </a>
-</p>
+<br/>
 
 ---
 
 <br/>
 
-> *"Simplicity is prerequisite for reliability."* — Edsger W. Dijkstra
+<!-- ================================================================= -->
+<!-- SECTION E: DEVELOPER ACTIVITY & TELEMETRY                         -->
+<!-- ================================================================= -->
+
+### 📊 &nbsp; Telemetry // Developer Activity
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <a href="https://github.com/kishanth-m">
+          <img src="https://github-readme-stats.vercel.app/api?username=kishanth-m&show_icons=true&theme=matrix&border_color=00FF66&bg_color=050807&title_color=00FF66&text_color=E6FFF2&icon_color=00f5d4&include_all_commits=true&count_private=true" alt="Kishanth M GitHub Stats" width="100%" />
+        </a>
+      </td>
+      <td width="50%" align="center">
+        <a href="https://github.com/kishanth-m">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=kishanth-m&theme=matrix&background=050807&border=00FF66&stroke=00FF66&ring=00FF66&fire=00f5d4&currStreakLabel=00f5d4&sideNums=E6FFF2&sideLabels=7a9988" alt="Kishanth M GitHub Streak" width="100%" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <a href="https://github.com/kishanth-m">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kishanth-m&layout=compact&theme=matrix&border_color=00FF66&bg_color=050807&title_color=00FF66&text_color=E6FFF2&langs_count=6" alt="Kishanth M Most Used Languages" width="80%" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<!-- ================================================================= -->
+<!-- SECTION F: CURRENT FOCUS // ROADMAP                               -->
+<!-- ================================================================= -->
+
+### 🗺️ &nbsp; Trajectory // AI Engineering Roadmap
+
+<div align="center">
+  <img src=".github/assets/current-focus.svg" alt="Kishanth M. — AI Engineering Roadmap" width="100%" />
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<!-- ================================================================= -->
+<!-- SECTION G: CONNECT WITH ME                                         -->
+<!-- ================================================================= -->
+
+### 🌐 &nbsp; Transmission // Connect With Me
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/kishanth-m-aa055b2a3/">
+    <img src=".github/assets/connect.svg" alt="Connect with Kishanth M. on GitHub and LinkedIn" width="100%" />
+  </a>
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<!-- ================================================================= -->
+<!-- SECTION H: FOOTER // DEVELOPER SIGNATURE                          -->
+<!-- ================================================================= -->
+
+<div align="center">
+  <img src=".github/assets/footer.svg" alt="Designed to Think. Built to Build. Always Learning." width="100%" />
+  
+  <br/>
+  
+  <sub>
+    Matrix ASCII Portrait Engine &bull; Designed &amp; Engineered by 
+    <a href="https://github.com/kishanth-m"><b>Kishanth M.</b></a> 
+    &bull; Built with inspiration from 
+    <a href="https://github.com/collectioneur/readme-aura"><code>readme-aura</code></a>
+  </sub>
+</div>
+
